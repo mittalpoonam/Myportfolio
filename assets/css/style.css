@@ -488,7 +488,7 @@ a.hoverline:hover {
 
 #skills .col img.responsive-img {
   margin: 0 auto;
-  max-height: 100px;
+  height: 100px;
   padding-bottom: 10px;
   text-align: center;
   vertical-align: middle;
@@ -565,6 +565,8 @@ small {
 /* .teal {
   background-color: #00695c !important;
 } */
+
+
 
 @media (min-width: 1200px) {
   #experience .container {
@@ -690,5 +692,11 @@ small {
   }
   #intro.section {
     background-position-x: 30%;
+  }
+
+  .md-responsive-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
